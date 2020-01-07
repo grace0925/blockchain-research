@@ -7,3 +7,15 @@ Make credentials on the web cryptographically secure, privacy respecting and mac
 **Subject::** An entity about which claims are made. (Human, animals and things). Like the pet.\
 **Verifier:** An entity who receives one or more verifiable credentials. (Employers, security personnel).\
 ![Ecosystem Roles](/Ecosystem1.png)
+
+## Core Data Model
+### Claims
+**Claim:** Statement about a subject.\
+**Subject:** A thing about which claims can be made.\
+### credentials
+**Credentials:** A set of one or more claims amde by the same entity. Might include identifiers or metadata to describe properties of the credential.\
+**Verifiable Credentials:** A set of tamper-evident claims and metadata that cryptographically prove who issued it.\
+![Verifiable Credential Comp](/VerifiableCred.png)\
+First graph expresses the verifiable credential itself (contains credential metadata and claims).\
+Second graph expresses the digital proof.\
+![Complete Verifiable Credential Comp](\CompleteVeriCred.png)\

@@ -12,10 +12,14 @@ Make credentials on the web cryptographically secure, privacy respecting and mac
 ### Claims
 **Claim:** Statement about a subject.\
 **Subject:** A thing about which claims can be made.\
-### credentials
+### Credentials
 **Credentials:** A set of one or more claims amde by the same entity. Might include identifiers or metadata to describe properties of the credential.\
 **Verifiable Credentials:** A set of tamper-evident claims and metadata that cryptographically prove who issued it.\
 ![Verifiable Credential Comp](/VerifiableCred.png)\
 First graph expresses the verifiable credential itself (contains credential metadata and claims).\
 Second graph expresses the digital proof.\
-![Complete Verifiable Credential Comp](\CompleteVeriCred.png)\
+![Complete Verifiable Credential Comp](/CompleteVeriCred.png)\
+### Presentations
+Expresses data from one or more verifiable credentials. Data in a presentation is often about the same subject, might have been issued by multiple issuers.
+![Presentation](/Presentations.png)\
+![Presentation Graph](/PresentationGraph.png)\

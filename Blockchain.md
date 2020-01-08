@@ -25,4 +25,16 @@ To tamper a blockchain:
 - Take control of greater than 50% of the peer-peer network
 
 ## Blockchain Transaction
-testing testing
+- Request transaction
+- Transaction is boardcasted to a P2P network
+- Network of nodes validate transaction and user's status with known algorithms
+- Once transaction completes, new block is added to existing blockchain permanently.
+
+## Advantages
+- **Time reduction:** single version of agreed-upon data of the share ledger is available between transactions; allows quicker settlement of trades.
+- **Security:** System remains operative even if large number of other nodes fall.
+- **Transparency:** Changes to public blockchain are publicly viewable to everyone
+
+## Disadvantages
+- **Higher cost**
+- **SLower transactions:** backlogs of transactions build up as nodes prioritize transactions with higher rewards

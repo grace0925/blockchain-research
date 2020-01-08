@@ -2,7 +2,7 @@
 New type of identifier to provide verifiable, decentralized digital identity.\
 **DIDs:** URLs that relate a DID subject to a DID document allowing trustable interactions with that subject. Consist of 3 parts:\
   - URL scheme Identifier
-  - Idnetifier for the DID method
+  - Identifier for the DID method
   - DID method-specific Identifier
 Eg. did:example:123456789abcdefghi
 
@@ -15,7 +15,7 @@ Eg. did:example:123456789abcdefghi
 
 ## Design Goal
 - Eliminate the need for centralized authorities or single point failure in identifier management.
-- Fuve both human and non-human entities the power to directly control their digital identifiers without the need to rely on external authorities. Each entity controls own privacy.
+- Give both human and non-human entities the power to directly control their digital identifiers without the need to rely on external authorities. Each entity controls own privacy.
 - Proof based.
 
 ## Data Model

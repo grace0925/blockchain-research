@@ -11,8 +11,8 @@ Any change inside the block will cause the hash to change.\
 Each block has:
 - Data
 - Hash
-- Hash of the previous block\
-Prevent tempering.\
+- Hash of the previous block
+Prevent tempering.
 ### Proof of Work
 Mechanism that slows down the creation of the new blocks. Makes blockchain secure.
 ### Distributed P2P Network
@@ -22,6 +22,6 @@ Each computer is called a node and everyone gets the full copy of the blockchain
 To tamper a blockchain:
 - Need to tamper all blocks
 - Need to redo proof-of-work for each block
-- Take control o greater than 50% of the peer-peer network\
+- Take control of greater than 50% of the peer-peer network
 
 ## Blockchain Transaction

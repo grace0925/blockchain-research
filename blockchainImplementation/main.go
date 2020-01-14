@@ -86,6 +86,7 @@ func (cli *CommandLine) run() {
 }
 
 func main() {
+  fmt.Println("Hi from blockchain")
   defer os.Exit(0)
   bchain := blockchain.InitBlockChain()
   // call defer since InitBlockChain() opens a database, need to close the database
